@@ -1,0 +1,39 @@
+@import 'tailwindcss/base';
+@import 'tailwindcss/components';
+@import 'tailwindcss/utilities';
+@import url('https://fonts.googleapis.com/css2?family=Inter&family=Karla:ital,wght@0,200..800;1,200..800&family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+
+
+.h1-standard {
+  @apply text-50 font-bold text-white mb-2 text-center font-karla; /* Ensure Tailwind classes are valid */
+}
+
+.h1-sub {
+  @apply text-50 font-bold text-bluewood mb-8 text-center font-karla; /* Ensure Tailwind classes are valid */
+}
+
+.h2-standard {
+  @apply text-30 font-bold text-bluewood mb-8 text-center font-karla; /* Ensure Tailwind classes are valid */
+}
+
+.h2-pages {
+  @apply text-30 font-semibold text-black mb-2 text-left font-karla; /* Ensure Tailwind classes are valid */
+}
+
+.h3-pages {
+  @apply  text-2xl font-bold text-bluewood mb-2 text-left font-karla; /* Ensure Tailwind classes are valid */
+}
+
+.custom-list-decimal {
+  @apply text-30 font-bold text-bluewood mb-2 text-left font-karla;
+}
+
+.custom-list-decimal > li {
+  @apply text-30 font-bold text-bluewood mb-2 text-left font-karla;
+}
+
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
